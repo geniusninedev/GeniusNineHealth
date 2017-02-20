@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/transp_background">
+
+    <View
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:alpha="0.4"
+        android:layout_alignParentTop="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Welcome"
+        android:gravity="center_horizontal"
+        android:id="@+id/textViewPatientName" />
+
+
+
+    <com.pkmmte.view.CircularImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageViewProfilePicture"
+        android:src="@drawable/ic_account_circle_white_24dp"
+        app:border="true"
+        app:border_color="#EEEEEE"
+        app:border_width="2dp"
+        app:shadow="true"
+        android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Click the image to upload your profile picture."
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:gravity="center_horizontal"
+            android:id="@+id/textView5"
+             />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextPaitentFirstName"
+                android:drawableLeft="@drawable/ic_account_circle_white_24dp"
+                android:hint="  Enter First Name"
+                android:inputType="text"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                android:textColorHint="#999999"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+               />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextPaitentLastName"
+            android:drawableLeft="@drawable/ic_account_circle_white_24dp"
+            android:hint="  Enter Last Name"
+            android:inputType="text"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:textColorHint="#999999"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextPaitentBirthDate"
+            android:drawableLeft="@drawable/ic_visibility_white_24dp"
+            android:hint=" Enter Birthdate Like DD-MM-YYYY"
+            android:maxLength="10"
+            android:digits="0123456789-"
+            android:inputType="text"
+            android:textColorHint="#999999"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextPaitentGender"
+            android:drawableLeft="@drawable/ic_supervisor_account_white_24dp"
+            android:hint="  Gender"
+            android:maxLength="6"
+            android:inputType="text"
+            android:textColorHint="#999999"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextPaitentHeight"
+            android:drawableLeft="@drawable/ic_accessibility_white_24dp"
+            android:hint="  Height like 5.5"
+            android:maxLength="3"
+            android:inputType="numberDecimal"
+            android:textColorHint="#999999"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextPaitentWeight"
+            android:drawableLeft="@drawable/ic_gavel_white_24dp"
+            android:hint="  Weight Like 55.45"
+            android:maxLength="6"
+            android:inputType="numberDecimal"
+            android:textColorHint="#999999"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextPaitentBloodGroup"
+            android:drawableLeft="@drawable/ic_opacity_white_24dp"
+            android:hint="  Blood Group like AB+"
+            android:maxLength="3"
+            android:inputType="text"
+            android:textColorHint="#999999"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextPaitentUniqueIdNumber"
+            android:drawableLeft="@drawable/ic_opacity_white_24dp"
+            android:hint="  Unique Id(AadharCard Number)"
+            android:maxLength="12"
+            android:inputType="number"
+            android:textColorHint="#999999"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            />
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/buttonRegister"
+        android:textColor="#ffffff"
+        android:background="@drawable/blue_btn_drawable" />
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

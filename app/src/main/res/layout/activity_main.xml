@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -10,5 +11,78 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.geniusnine.android.geniusninehealth.MainActivity">
 
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/appointments"
+                android:scaleType="fitCenter"
+                android:id="@+id/imageButtonappointment"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/reminder"
+                android:scaleType="fitCenter"
+                android:id="@+id/imageButtonreminders"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/patient"
+                android:scaleType="fitCenter"
+                android:id="@+id/imageButtonpatient"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/messages"
+                android:scaleType="fitCenter"
+                android:id="@+id/imageButtonmessage"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="250dp"
+                app:srcCompat="@drawable/drugs"
+                android:id="@+id/imageButtondrugs"
+                android:scaleType="fitCenter"
+                android:layout_weight="1"
+                android:layout_height="100dp" />
+
+            <ImageButton
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:id="@+id/imageButton5"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
 </RelativeLayout>

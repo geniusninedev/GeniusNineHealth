@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1" android:checkableBehavior="single" >
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    </group>
+    <group android:id="@+id/grp2" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/Inbox"
+            android:icon="@drawable/inbox"
+            android:title="Inbox" />
+    </group>
+
+    <group android:id="@+id/grp3" android:checkableBehavior="single" >
+
+        <item
+            android:id="@+id/My_Orders"
+            android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+            android:title="My Orders" />
+
+</group>
+
+    <group android:id="@+id/grp4" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/Medicines"
+            android:icon="@drawable/pills"
+            android:title="Medicines" />
+
+</group>
+    <group android:id="@+id/grp5" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/Add_Medicines"
+            android:icon="@drawable/ic_pages"
+            android:title="Add Medicines" />
+    </group>
+    <group android:id="@+id/grp6" android:checkableBehavior="single" ></group>
+    <group android:id="@+id/grp7" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/Add_Health_And_Tips"
+            android:icon="@drawable/ic_pages"
+            android:title="Add Health And Tips" />
+    </group>
+    <group android:id="@+id/grp8" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/Add_Labs"
+            android:icon="@drawable/ic_pages"
+            android:title="Add Labs" />
+        <item
+            android:id="@+id/Health_And_Tips"
+            android:icon="@drawable/ic_pages"
+            android:title="Health And Tips" />
+    </group>
+    <group android:id="@+id/grp9" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/OTC"
+            android:icon="@drawable/examination"
+            android:title="OTC" />
+    </group>
+    <group android:id="@+id/grp10" android:checkableBehavior="single" >
+    <item
+        android:id="@+id/Add_Categories"
+        android:icon="@drawable/doctor"
+        android:title="Add Categories" />
+
+    </group>
+    <group android:id="@+id/grp11" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/Add_Doctor"
+            android:icon="@drawable/adddoctor"
+            android:title="Add Doctor" />
+    </group>
+    <group android:id="@+id/grp12" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/Doctor_info"
+            android:icon="@drawable/adddoctor"
+            android:title="Doctor Info" />
+
+    </group>
+    <group android:id="@+id/grp13" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/Book_Appointment"
+            android:icon="@drawable/enq"
+            android:title="Book Appointment" />
+
+    </group>
+    <group android:id="@+id/grp14" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/Feedback"
+            android:icon="@drawable/ic_people"
+            android:title="Feedback" />
+
+    </group>
+    <group android:id="@+id/grp15" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/About_Us"
+            android:icon="@drawable/ic_info_white_24dp"
+            android:title="About US" />
+
+    </group>
+    <group android:id="@+id/grp16" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/Contact_Us"
+            android:icon="@drawable/ic_settings_phone_white_24dp"
+            android:title="Contact Us" />
+    </group>
+    <group android:id="@+id/grp17" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/Logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Logout" />
+    </group>
+</menu>
